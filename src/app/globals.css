@@ -49,7 +49,7 @@
 .scroll-animation-first {
   display: flex;
   width: max-content; /* so it fits content width */
-  animation: scroll-first 15s linear infinite;
+  animation: scroll-first 20s linear infinite;
 }
 
 @keyframes scroll-first {

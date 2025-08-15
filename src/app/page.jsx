@@ -206,6 +206,8 @@ export default function BadRetentionHomepage() {
   
   return (
     <div className="min-h-screen bg-black text-white relative overflow-x-hidden">
+     <div className=" bg-[url('/bg-desktop.png')] sm:bg-[url('/bg-desktop.png')] bg-cover bg-center rounded-xl">
+
       {/* Navigation */}
       <nav >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -281,8 +283,8 @@ export default function BadRetentionHomepage() {
 
 {/* ////////////////////////////////// */}
 </div>
+{/* ///////////////// */}
 
-              
               <div className="flex flex-col mx-auto sm:flex-row gap-4 mt-[30px] justify-center items-center">
                   <div className="border-glow rounded-lg">
                     <button className="group cursor-pointer font-montserrat bg-gradient-to-r from-red-600 to-red-700 hover:from-white hover:to-white hover:text-black text-white px-6 py-2 rounded-lg font-bold text-[14px] sm:text-[25px] transition-all duration-300 flex items-center space-x-2">
@@ -291,32 +293,39 @@ export default function BadRetentionHomepage() {
                     </button>
                   </div>
               </div>
-             <div className="w-full text-center mt-2 px-4 py-2 ">
+              
+             <div className="w-full text-center mt-2 px-4 py-2  ">
   <p className="text-sm sm:text-base md:text-sm  font-semibold text-white tracking-wide">
     🔒 Trusted by <span className="text-red-500 font-bold">10+ fast-scaling</span> DTC BRANDS
   </p>
 </div>
 
 
+
+
               {/* ///////////////////////////////////////// */}
-              <div className="flex flex-col items-center justify-center text-center py-10 bg-black">
+              <div className="flex flex-col items-center justify-center  text-center py-10 ">
                 <h1 className="text-white font-spaceGrotesk text-3xl font-semibold mb-4">
                   Our Trusted Partners
                 </h1>
+                
                 <Image
-                  className='mt-4'
-                  src="/shopppe.png" // Make sure the image exists in your public folder
-                  alt="Our Trusted Partners"
-                  width={390} // Adjust as needed
-                  height={90} // Adjust as needed
-                />
+  className="mt-4 w-[250px] h-auto sm:w-[390px]" // smaller on mobile, bigger on sm+
+  src="/shopppe.png"
+  alt="Our Trusted Partners"
+  width={390}
+  height={90}
+/>
+
+
               </div>
               
             </div>
           </div>
         </div>
       </section>
-<div className="mt-[-70px] sm:mt-[-50px] text-center flex flex-col items-center justify-center w-11/12 sm:w-3/4 mx-auto px-4">
+      </div>
+<div className="mt-[-70px] sm:mt-[-50px] text-center flex flex-col items-center justify-center w-full sm:w-3/4 mx-auto px-4">
   <h1 className="text-sm  mb-2">
     Brand’s we’ve helped increase their revenue.
   </h1>
@@ -324,6 +333,7 @@ export default function BadRetentionHomepage() {
     Trusted by leading DTC brands.
   </h1>
 </div>
+
       {/* sliding section */}
       {/* Logos section — Right ➡ Left */}
       <section className="relative overflow-hidden w-full sm:w-[80%] mx-auto mt-12 px-4 sm:px-0">
@@ -340,13 +350,17 @@ export default function BadRetentionHomepage() {
         key={index}
         src={logo.src}
         alt={logo.alt}
-        width={logo.width}
+        width={logo.width} // original width for laptops
         height={100}
-        className="object-contain inline-block mx-4 sm:mx-8" // smaller margin on mobile
+        className="object-contain inline-block mx-2 sm:mx-8 w-[70px] sm:w-[unset]" 
+        // w-[70px] → mobile
+        // sm:w-[unset] → revert to original width on laptop
       />
     ))}
   </div>
 </section>
+
+
 
 
 {/* ///////////////////////////////////////////////////////////////////////// */}
@@ -424,7 +438,7 @@ export default function BadRetentionHomepage() {
       </main>
 
       {/* /////////////////////////////////////// */}
-      <div className="min-h-screen bg-black md:mt-[50px] -mt-45  text-white">
+      <div className="min-h-screen bg-black md:mt-[50px] -mt-90  text-white">
         <div className="flex flex-col items-center justify-center w-full px-4 text-center ">
 
 
@@ -438,7 +452,7 @@ export default function BadRetentionHomepage() {
 
 </div>
 
-        <div className="px-8  py-12">
+        <div className="sm:px-8 px-4  py-12">
            
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
            
@@ -451,7 +465,7 @@ export default function BadRetentionHomepage() {
               viewport={{ once: true, amount: 0.2 }}
               variants={cardVariants}
             >
-              <div className="relative rounded-3xl sm:p-8 p-2 text-center overflow-hidden bg-black">
+              <div className="relative rounded-3xl sm:p-8 p-4 text-center overflow-hidden bg-black">
                 {/* Glow effect in top-left */}
                 <div className="absolute -top-20 -left-20 w-60 h-60 bg-red-500/70 rounded-full blur-3xl"></div>
                 
@@ -498,7 +512,7 @@ export default function BadRetentionHomepage() {
             >
               <div className="relative rounded-3xl p-8 text-center overflow-hidden bg-black">
                 {/* Glow effect */}
-                <div className="absolute -top-20 -left-20 w-80 h-60 bg-red-500/70 rounded-full blur-3xl"></div>
+                <div className="absolute -top-20 -left-20 w-60 h-60 bg-red-500/70 rounded-full blur-3xl"></div>
                 {/* Content */}
                 <div className="relative z-10">
                   <h2 className="text-3xl font-bold mb-6 text-white">Consulting</h2>
@@ -544,14 +558,14 @@ export default function BadRetentionHomepage() {
 >
   <div className="relative rounded-3xl p-6 sm:p-8 text-center overflow-hidden bg-black">
     {/* Glow effect */}
-    <div className="absolute -top-16 -left-16 sm:-top-20 sm:-left-20 w-40 sm:w-60 h-40 sm:h-60 bg-red-500/70 rounded-full blur-3xl"></div>
+                <div className="absolute -top-20 -left-20 w-60 h-60 bg-red-500/70 rounded-full blur-3xl"></div>
 
     {/* Content */}
     <div className="relative z-10">
       <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-white">
         Advertorials
       </h2>
-      <p className="text-base sm:text-lg leading-relaxed text-[#F5F5F5] max-w-xs sm:max-w-2xl mx-auto">
+      <p className="text-base sm:text-lg leading-relaxed text-[#F5F5F5] max-w-2xl sm:max-w-2xl mx-auto">
         Not ads. Not blogs. Advertorials that blend editorial storytelling with hard-hitting persuasion, making buying feel like the natural next step.
       </p>
     </div>

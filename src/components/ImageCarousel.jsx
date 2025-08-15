@@ -56,9 +56,9 @@ const App = () => {
       {/* Foreground content stays centered */}
       <div className="relative z-10 flex flex-col items-center justify-center w-full h-full px-4">
         {/* Heading section with responsive text sizes */}
-        <div className="text-center -mt-20 sm:mt-2">
+        <div className="text-center -mt-30 z-30 sm:mt-2">
           <p className="text-sm md:text-lg text-white font-semibold">PROOF</p>
-          <h1 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold leading-tight">
+          <h1 className="text-white text-xl sm:text-4xl md:text-5xl font-bold leading-tight">
             These Brands Stopped Discounting
           </h1>
           <p className="text-white font-spaceGrotesk uppercase mt-[4px] text-xs sm:text-sm md:text-base max-w-3xl mx-auto">
@@ -125,7 +125,7 @@ const App = () => {
           */}
           <button
   onClick={goToPrevious}
-  className="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-white/30 hover:bg-white/50 text-red-500 rounded-full transition-colors z-20"
+  className="hidden sm:block absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-white/30 hover:bg-white/50 text-red-500 rounded-full transition-colors z-20"
   aria-label="Previous slide"
 >
   <ChevronLeft size={32} />
@@ -133,7 +133,7 @@ const App = () => {
 
 <button
   onClick={goToNext}
-  className="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-white/30 hover:bg-white/50 text-red-500 rounded-full transition-colors z-20"
+  className="hidden sm:block absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-white/30 hover:bg-white/50 text-red-500 rounded-full transition-colors z-20"
   aria-label="Next slide"
 >
   <ChevronRight size={32} />
