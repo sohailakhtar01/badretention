@@ -1,26 +1,166 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Fonts */
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+.font-spaceGrotesk {
+  font-family: var(--font-space-grotesk);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+
+
+
+
+
+
+
+
+
+/* 1️⃣ Right ➡ Left (for logos) */
+/* @keyframes scroll-right-to-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.scroll-animation-rtl {
+  display: inline-flex;
+  animation: scroll-right-to-left 20s linear infinite;
+} */
+@keyframes scroll-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
+
+.scroll-animation-rtl {
+  display: flex;
+  animation: scroll-rtl 20s linear infinite;
+}
+.scroll-animation-first {
+  display: flex;
+  width: max-content; /* so it fits content width */
+  animation: scroll-first 15s linear infinite;
+}
+
+@keyframes scroll-first {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+           /* test */
+           @keyframes slide-in-hold-out {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+/* 2️⃣ Left ➡ Right (for photos) */
+@keyframes scroll-left-to-right {
+  0% {
+    transform: translate3d(-2306px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.scroll-animation-ltr {
+  display: inline-flex;
+  animation: scroll-left-to-right 60s linear infinite;
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.scroll-animation-ltr img {
+  flex-shrink: 0;
+  image-rendering: optimizeQuality; /* Better for smooth images */
+  -webkit-transform: translateZ(0); /* Force GPU acceleration */
+  transform: translateZ(0);
+}
+
+@keyframes borderGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.border-glow {
+  background: linear-gradient(90deg, white, red, white);
+  background-size: 200% 200%;
+  animation: borderGlow 3s linear infinite;
+  padding: 2px; /* border thickness */
+  border-radius: 0.5rem; /* match your button radius */
+  
+  /* Brighter multi-layer glow */
+  box-shadow: 
+    0 0 15px rgba(255, 0, 0, 0.8), 
+    0 0 30px rgba(255, 0, 0, 0.6), 
+    0 0 45px rgba(255, 0, 0, 0.4);
+}
+/* //////////////////////FlipCard.jsx///////////////////// */
+@keyframes staggeredScaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.hover\\:rotate-y-180:hover {
+  transform: rotateY(180deg);
+}
+
+/* //////////////////////FlipCard.jsx///////////////////// */

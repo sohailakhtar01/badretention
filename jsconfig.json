@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",        // points @ to the /src folder
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["*"],          // ❶  root‑level alias  (@/file → src/file)
+      "@components/*": ["components/*"]   // ❷  keeps your component alias
     }
   }
 }
