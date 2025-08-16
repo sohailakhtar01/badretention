@@ -287,10 +287,16 @@ export default function BadRetentionHomepage() {
 
               <div className="flex flex-col mx-auto sm:flex-row gap-4 mt-[30px] justify-center items-center">
                   <div className="border-glow rounded-lg">
-                    <button className="group cursor-pointer font-montserrat bg-gradient-to-r from-red-600 to-red-700 hover:from-white hover:to-white hover:text-black text-white px-6 py-2 rounded-lg font-bold text-[14px] sm:text-[25px] transition-all duration-300 flex items-center space-x-2">
+                    <a
+                     href="https://calendly.com/samirakhtar1326/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+
+
+                     className="group cursor-pointer font-montserrat bg-gradient-to-r from-red-600 to-red-700 hover:from-white hover:to-white hover:text-black text-white px-6 py-2 rounded-lg font-bold text-[14px] sm:text-[25px] transition-all duration-300 flex items-center space-x-2">
                       <span>I WANT MY PROFIT ROADMAP NOW</span>
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
-                    </button>
+                    </a>
                   </div>
               </div>
               
@@ -391,7 +397,7 @@ export default function BadRetentionHomepage() {
 
       {/* Photos section — Left ➡ Right */}
 {/* Photos section — Left ➡ Right */}
-<section className="relative overflow-x-hidden mt-10 mx-auto flex items-start">
+<section className="relative overflow-x-hidden mt-9 mx-auto flex items-start">
   
   {/* Left shadow */}
   <div className="pointer-events-none absolute left-0 top-0 h-full w-6 sm:w-20 bg-gradient-to-r from-black/40 sm:from-black/60 to-transparent z-20" />
@@ -431,15 +437,15 @@ export default function BadRetentionHomepage() {
 
             
 
-      <main className="min-h-screen mt-[-10px] bg-black flex items-center justify-center ">
+      <main className="min-h-screen sm:mt-[-10px] mt-[-52px] bg-black flex items-center justify-center ">
         <div className=" w-full">
           <ImageCarousel />
         </div>
       </main>
 
       {/* /////////////////////////////////////// */}
-      <div className="min-h-screen bg-black md:mt-[50px] -mt-90  text-white">
-        <div className="flex flex-col items-center justify-center w-full px-4 text-center ">
+      <div className="min-h-screen bg-black  text-white">
+        <div className="flex flex-col items-center justify-center md:mt-[50px] -mt-105  w-full px-4 text-center ">
 
 
   <h1 className="text-2xl  sm:text-4xl font-montserrat md:text-5xl font-bold uppercase leading-tight">
@@ -459,7 +465,7 @@ export default function BadRetentionHomepage() {
             
             {/* Email Marketing Card */}
             <motion.div
-              className="relative rounded-3xl p-8 text-center overflow-hidden bg-black"
+              className="relative rounded-3xl p-8 -mt-12 text-center overflow-hidden bg-black"
               initial="hiddenLeft"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
@@ -482,7 +488,7 @@ export default function BadRetentionHomepage() {
 
             {/* Product Drop Card */}
             <motion.div
-              className="relative rounded-3xl  p-8 text-center overflow-hidden bg-black"
+              className="relative rounded-3xl  mt-[-30px] sm:mt-[-20px]  p-8 text-center overflow-hidden bg-black"
               initial="hiddenRight"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
@@ -550,7 +556,7 @@ export default function BadRetentionHomepage() {
             
           </div>
           <motion.div
-  className="relative rounded-3xl mt-[-16] sm:mt-[-20] p-6 sm:p-8 w-full sm:w-[80%] md:w-[47%] mx-auto text-center overflow-hidden bg-black"
+  className="relative rounded-3xl mt-[-30px] sm:mt-[-30px] p-6 sm:p-8 w-full sm:w-[80%] md:w-[47%] mx-auto text-center overflow-hidden bg-black"
   initial="hiddenLeft"
   whileInView="visible"
   viewport={{ once: true, amount: 0.2 }}
@@ -659,7 +665,7 @@ export default function BadRetentionHomepage() {
 
   <section className="px-4 ">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mt-8 ">
+          <div className="relative text-center -mt-8 z-30 sm:mt-6 ">
            
 
             <h2 className="text-4xl md:text-5xl font-bold font-montserrat mb-4">
@@ -792,10 +798,15 @@ export default function BadRetentionHomepage() {
 
 </div>
           <div className="w-full flex justify-center mt-[30px]">
-  <button className="group cursor-pointer bg-gradient-to-r from-red-600 to-red-700 hover:from-white hover:to-white hover:text-black text-white px-6 py-2 rounded-lg font-bold text-[15px] transition-all duration-300 flex items-center justify-center space-x-2">
+  <a 
+
+  href="https://calendly.com/samirakhtar1326/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group cursor-pointer bg-gradient-to-r from-red-600 to-red-700 hover:from-white hover:to-white hover:text-black text-white px-6 py-2 rounded-lg font-bold text-[15px] transition-all duration-300 flex items-center justify-center space-x-2">
     <span>Get Your Free Audit Today</span>
     <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
-  </button>
+  </a>
 </div>
 
 <p className=" w-full text-center flex items-center justify-center  mx-auto text-sm  opacity-80 z-10 p-2 duration-300  ">
@@ -836,7 +847,7 @@ export default function BadRetentionHomepage() {
       </nav>
        <div className="flex mx-auto items-center justify-center text-center mt-[-5px] py-7   space-x-4">
       <a
-        href="https://instagram.com/yourprofile"
+        href="https://www.instagram.com/_sameerakhtar_22?igsh=NGdhdDJsdTlza3N"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white transition-colors"
@@ -844,17 +855,17 @@ export default function BadRetentionHomepage() {
         <Instagram className="w-6 h-6" />
       </a>
 
-      <a
+      {/* <a
         href="https://facebook.com/yourprofile"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white  transition-colors"
       >
         <Facebook className="w-6 h-6" />
-      </a>
+      </a> */}
 
       <a
-        href="https://twitter.com/yourprofile"
+        href="https://x.com/EcomSameer?t=RLzsoYIarUWoCw0_smwj_w&s=09"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white transition-colors"
@@ -863,7 +874,7 @@ export default function BadRetentionHomepage() {
       </a>
 
       <a
-        href="https://linkedin.com/in/yourprofile"
+        href="https://www.linkedin.com/in/sameer-akhtar-388259300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white  transition-colors"

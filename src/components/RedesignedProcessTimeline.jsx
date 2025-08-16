@@ -69,10 +69,10 @@ function RedesignedProcessTimeline() {
   return (
     <section
       ref={ref}
-      className="relative bg-black mt-[-90px] text-white px-4 py-16  font-sans"
+      className="relative bg-black mt-[-90px]  text-white px-4 py-16  font-sans"
     >
       <div
-        className="absolute inset-y-0 mt-[20px] rounded-xl  w-full h-full
+        className="absolute  inset-y-0 mt-[20px] rounded-xl  w-full h-full
           bg-[radial-gradient(circle_at_top_right,rgba(255,0,0,0.6)_0%,rgba(0,0,0,0.95)_30%,#000_100%)]
           before:content-[''] before:absolute before:inset-0
           before:bg-[linear-gradient(to_right,rgba(255,0,0,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,0,0,0.2)_1px,transparent_1px)]
@@ -87,7 +87,7 @@ function RedesignedProcessTimeline() {
         
 
         {/* Title */}
-       <div className="flex flex-col items-center justify-center w-full px-4 text-center mt-[90px] xl:mt-[30px] mb-8">
+       <div className="flex flex-col items-center  justify-center w-full px-4 text-center mt-[90px] xl:mt-[30px] mb-8">
 
 
   <h1 className="text-2xl sm:text-4xl font-montserrat md:text-5xl font-bold uppercase leading-tight">
@@ -128,7 +128,7 @@ function RedesignedProcessTimeline() {
                 key={item.step}
                 variants={isOdd ? itemVariantsRight : itemVariantsLeft}
                 className={clsx(
-                  "relative flex flex-col md:flex-row items-center w-full mb-12 md:mb-20",
+                  "relative flex flex-col md:flex-row items-center w-full",
                   { "md:flex-row-reverse": isOdd }
                 )}
               >
