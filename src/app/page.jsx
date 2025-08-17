@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRef } from "react";
 import { ChevronDown, Phone, CheckCircle, FileText, Zap } from 'lucide-react';
 import { Instagram, Facebook, Twitter, Linkedin } from "lucide-react";
-
+import CalendlyEmbed from "@/components/CalendlyEmbed";
 import { motion } from "framer-motion";
 import RedesignedProcessTimeline from "@components/RedesignedProcessTimeline"
 import ImageCarousel from "@/components/ImageCarousel";
@@ -808,6 +808,11 @@ export default function BadRetentionHomepage() {
     <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
   </a>
 </div>
+
+{/* /////////////////////here we have to add the calendly link ////////////////////////// */}
+
+{/* /////////////////////////////////////////////// */}
+
 
 <p className=" w-full text-center flex items-center justify-center  mx-auto text-sm  opacity-80 z-10 p-2 duration-300  ">
       🔒 Join over 10+ DTC brands now
