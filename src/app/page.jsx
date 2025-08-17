@@ -288,7 +288,7 @@ export default function BadRetentionHomepage() {
               <div className="flex flex-col mx-auto sm:flex-row gap-4 mt-[30px] justify-center items-center">
                   <div className="border-glow rounded-lg">
                     <a
-                     href="https://calendly.com/samirakhtar1326/30min"
+                     href="https://calendly.com/sameer-badretention/30min"
   target="_blank"
   rel="noopener noreferrer"
 
@@ -800,7 +800,7 @@ export default function BadRetentionHomepage() {
           <div className="w-full flex justify-center mt-[30px]">
   <a 
 
-  href="https://calendly.com/samirakhtar1326/30min"
+  href="https://calendly.com/sameer-badretention/30min"
   target="_blank"
   rel="noopener noreferrer"
   className="group cursor-pointer bg-gradient-to-r from-red-600 to-red-700 hover:from-white hover:to-white hover:text-black text-white px-6 py-2 rounded-lg font-bold text-[15px] transition-all duration-300 flex items-center justify-center space-x-2">
