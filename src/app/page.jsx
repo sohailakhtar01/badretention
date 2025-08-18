@@ -242,7 +242,7 @@ export default function BadRetentionHomepage() {
                 <span className="   bg-white bg-clip-text text-transparent">
                   DISCOVER HOW YOU CAN ADD{' '}
                 </span>
-                <span className="text-red-500">
+                <span className="text-red-600">
                   $25,000-$45,000 IN MRR
                 </span>
                 <br />
@@ -250,7 +250,7 @@ export default function BadRetentionHomepage() {
                   WITHOUT SPENDING A SINGLE DOLLAR ON ADS
                 </span>
                 
-                <span className="text-white underline decoration-[#E63946] decoration-2">
+                <span className="text-white underline decoration-red-600 decoration-2">
                   USING OUR PROVEN BAD PROFIT FRAMEWORK
                 </span>
               </h1>
@@ -273,9 +273,9 @@ export default function BadRetentionHomepage() {
   to bank an extra{' '}
   <span className="text-white font-semibold">30%-45% revenue</span>
   
-  <span className='ml-2 text-white font-semibold '>every single month...
+  <span className='ml-1 text-white font-semibold '>every single month...
 
-  <span className='text-white'>Now imagine what those same</span></span> <span className=" font-semibold">30%-45%</span>
+  <span className='text-white'>Now imagine what those same</span></span> <span className=" font-semibold">30%-45% </span>
   
   would look like when applied to YOUR{' '}
   <span className="text-white font-semibold">revenue numbers!</span>
@@ -301,7 +301,7 @@ export default function BadRetentionHomepage() {
               </div>
               
              <div className="w-full text-center mt-2 px-4 py-2  ">
-  <p className="text-sm sm:text-base md:text-sm  font-semibold text-white tracking-wide">
+  <p className="text-[10px] sm:text-[12px]  font-semibold text-white tracking-wide">
     ⭐⭐⭐⭐⭐| Trusted by <span className="text-white font-bold">10+ fast-scaling</span> DTC brands
   </p>
 </div>
@@ -587,7 +587,7 @@ export default function BadRetentionHomepage() {
 
         {/* Cured section - Animations trigger on scroll */}
          <style dangerouslySetInnerHTML={{ __html: style }} />
-        <div className="flex flex-col mt-[-15px] items-center justify-center min-h-screen p-1">
+        <div className="flex flex-col mt-[-70px] items-center justify-center min-h-screen p-1">
           
                  <div className="relative w-full min-h-screen rounded-xl mt-10 overflow-hidden">
   {/* Background gradient */}
@@ -787,12 +787,12 @@ export default function BadRetentionHomepage() {
   
   
  
-  <h1 className="text-white text-2xl font-montserrat mt-[-10px] sm:text-xl md:text-[40px] xl:text-5xl w-full flex items-center justify-center  font-bold uppercase leading-tight ">
+  <h1 className="text-white text-[20px] font-montserrat mt-5 sm:-mt-10  sm:text-xl md:text-[40px] xl:text-5xl w-full flex items-center justify-center  font-bold uppercase leading-tight ">
     Turn Your Traffic & Email List Into Cash
   </h1>
   
  
-  <p className="text-white font-spaceGrotesk mt-[10px]   text-xs sm:text-sm md:text-3xl  max-w-5xl">
+  <p className="text-white font-spaceGrotesk mt-[10px]   text-xs sm:text-sm md:text-2xl  max-w-5xl">
    That Pays for Your Ads (and Then Prints Pure Profit)
 </p>
 
@@ -814,8 +814,8 @@ export default function BadRetentionHomepage() {
 {/* /////////////////////////////////////////////// */}
 
 
-<p className=" w-full text-center flex items-center justify-center  mx-auto text-sm  opacity-80 z-10 p-2 duration-300  ">
-      🔒 Join over 10+ DTC brands now
+<p className=" w-full text-center flex items-center justify-center  mx-auto text-sm  text-white z-10 p-2 duration-300  ">
+      ⭐⭐⭐⭐⭐| Join over 10+ DTC brands now
     </p>
 
        
@@ -852,7 +852,7 @@ export default function BadRetentionHomepage() {
       </nav>
        <div className="flex mx-auto items-center justify-center text-center mt-[-5px] py-7   space-x-4">
       <a
-        href="https://www.instagram.com/_sameerakhtar_22?igsh=NGdhdDJsdTlza3N"
+        href="https://www.instagram.com/badretention/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white transition-colors"

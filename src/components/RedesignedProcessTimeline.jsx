@@ -69,10 +69,10 @@ function RedesignedProcessTimeline() {
   return (
     <section
       ref={ref}
-      className="relative bg-black mt-[-90px]  text-white px-4 py-16  font-sans"
+      className="relative bg-black  mt-[-90px]  text-white px-4 py-16  font-sans"
     >
       <div
-        className="absolute  inset-y-0 mt-[20px] rounded-xl  w-full h-full
+        className="absolute  inset-y-0 sm:mt-[20px] mt-[110px] rounded-xl  w-full h-full
           bg-[radial-gradient(circle_at_top_right,rgba(255,0,0,0.6)_0%,rgba(0,0,0,0.95)_30%,#000_100%)]
           before:content-[''] before:absolute before:inset-0
           before:bg-[linear-gradient(to_right,rgba(255,0,0,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,0,0,0.2)_1px,transparent_1px)]
@@ -112,7 +112,7 @@ function RedesignedProcessTimeline() {
         >
           {/* Vertical spine */}
            <motion.div
-        className="hidden md:block absolute left-1/2 -translate-x-1/2 top-6 w-0.5 bg-red-500"
+        className="hidden md:block absolute left-1/2 -translate-x-1/2 top-6 w-0.5 bg-red-600"
         style={{
           height: lineHeight,
         }}
@@ -128,7 +128,7 @@ function RedesignedProcessTimeline() {
                 key={item.step}
                 variants={isOdd ? itemVariantsRight : itemVariantsLeft}
                 className={clsx(
-                  "relative flex flex-col md:flex-row items-center w-full",
+                  "relative flex flex-col md:flex-row items-center w-full ",
                   { "md:flex-row-reverse": isOdd }
                 )}
               >
@@ -139,8 +139,8 @@ function RedesignedProcessTimeline() {
                     "md:absolute md:top-1/2 md:-translate-y-1/2 md:left-1/2 md:-translate-x-1/2"
                   )}
                 >
-                  <div className="bg-black border-2 border-red-500 w-12 h-12 rounded-full flex items-center justify-center">
-                    <span className="font-bold text-lg text-red-400">
+                  <div className="bg-black border-2 border-red-600 w-12 h-12 rounded-full flex items-center justify-center">
+                    <span className="font-bold text-lg text-red-600">
                       {item.step}
                     </span>
                   </div>
@@ -154,7 +154,7 @@ function RedesignedProcessTimeline() {
              hover:bg-gradient-to-br hover:from-black hover:to-red-600/50
              md:text-left"
 >
-  <item.icon className="w-10 h-10 mb-4 text-[#E63946]" />
+  <item.icon className="w-10 h-10 mb-4 text-red-600" />
 
                     <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
                     <p className="text-gray-400 text-base">

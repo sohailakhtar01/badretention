@@ -57,11 +57,11 @@ const App = () => {
       <div className="relative z-10 flex flex-col items-center justify-center w-full h-full px-4">
         {/* Heading section with responsive text sizes */}
         <div className="text-center -mt-40 z-30 sm:mt-2">
-          <p className="text-sm md:text-lg text-white font-semibold">PROOF</p>
+          <p className="  text-sm md:text-lg text-white font-semibold">PROOF</p>
           <h1 className="text-white text-xl sm:text-4xl md:text-5xl font-bold leading-tight">
             These Brands Stopped Discounting
           </h1>
-          <p className="text-white font-spaceGrotesk uppercase mt-[4px] text-xs sm:text-sm md:text-base max-w-3xl mx-auto">
+          <p className="text-white font-spaceGrotesk uppercase mt-[4px]  text-xs sm:text-sm md:text-base max-w-3xl mx-auto">
             and made more money
           </p>
         </div>
@@ -71,7 +71,7 @@ const App = () => {
           This div is `relative` and stretches across the full width,
           allowing the absolutely positioned arrows to be at the extreme ends.
         */}
-        <div className="relative w-full max-w-7xl  -mt-21 sm:mt-8">
+        <div className="relative w-full max-w-7xl  -mt-20 sm:mt-8">
           {/* Sliding carousel container */}
           <div className="relative w-full  max-w-4xl mx-auto sm:h-96 h-86 overflow-hidden rounded-xl shadow-2xl">
             {/*
@@ -79,7 +79,7 @@ const App = () => {
               The `transform` property controls the sliding animation.
             */}
             <div
-              className="flex h-full  transition-transform duration-1000 ease-in-out"
+              className="flex h-full  transition-transform mt-5 sm:mt-0 duration-1000 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {images.map((image, index) => (
