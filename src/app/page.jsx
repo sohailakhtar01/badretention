@@ -71,7 +71,7 @@ const cardVariants = {
 
 const logos = [
   { src: "/logo1.png", alt: "Himalyan", width: 100,height:200 },
-  { src: "/logo2.png", alt: "Cesira", width: 150,height:200 },
+  { src: "/logo2.jpeg", alt: "Cesira", width: 150,height:200 },
   { src: "/logo3.png", alt: "High", width: 150,height:200 },
   { src: "/logo4.png", alt: "Pursilajit", width: 150,height:200 },
   { src: "/logo5.png", alt: "Soulfull", width: 150,height:200 }
@@ -271,9 +271,9 @@ export default function BadRetentionHomepage() {
   This is the exact same system a $30k/month brand is using
   
   to bank an extra{' '}
-  <span className="text-[#E63946] font-semibold">30%-45% revenue</span>
+  <span className="text-white font-semibold">30%-45% revenue</span>
   
-  <span className='ml-2 text-[#E63946] font-semibold '>every single month…
+  <span className='ml-2 text-white font-semibold '>every single month...
 
   <span className='text-white'>Now imagine what those same</span></span> <span className=" font-semibold">30%-45%</span>
   
@@ -302,7 +302,7 @@ export default function BadRetentionHomepage() {
               
              <div className="w-full text-center mt-2 px-4 py-2  ">
   <p className="text-sm sm:text-base md:text-sm  font-semibold text-white tracking-wide">
-    🔒 Trusted by <span className="text-red-500 font-bold">10+ fast-scaling</span> DTC BRANDS
+    ⭐⭐⭐⭐⭐| Trusted by <span className="text-white font-bold">10+ fast-scaling</span> DTC brands
   </p>
 </div>
 
@@ -879,7 +879,7 @@ export default function BadRetentionHomepage() {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/sameer-akhtar-388259300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        href="https://www.linkedin.com/company/bad-retention/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white  transition-colors"

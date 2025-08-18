@@ -43,7 +43,7 @@ export const metadata = {
     siteName: "BAD RETENTION",
     images: [
       {
-        url: "/favicon.png",
+        url: "/favicon.jpeg",
         width: 512,
         height: 512,
         alt: "BAD RETENTION Logo",
