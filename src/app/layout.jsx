@@ -33,7 +33,7 @@ export const metadata = {
     "BAD RETENTION"
   ],
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.jpeg",
   },
   openGraph: {
     title: "BAD RETENTION - Email & SMS Marketing Agency",

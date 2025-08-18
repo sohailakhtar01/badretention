@@ -242,7 +242,7 @@ export default function BadRetentionHomepage() {
                 <span className="   bg-white bg-clip-text text-transparent">
                   DISCOVER HOW YOU CAN ADD{' '}
                 </span>
-                <span className="text-[#E63946]">
+                <span className="text-red-500">
                   $25,000-$45,000 IN MRR
                 </span>
                 <br />
@@ -260,8 +260,8 @@ export default function BadRetentionHomepage() {
               {/* ////////////////////////// */}
   {/* Desktop/Laptop View */}
 <p className="hidden sm:block xl:text-[19px]  font-spaceGrotesk sm:text-[17px] text-[13px] text-white mb-6 mt-5 max-w-7xl mx-auto leading-relaxed"> This is the exact same system a $30k/month brand is using to bank an extra{' '} 
-    <span className="text-[#E63946] font-semibold">30%-45% revenue every single </span> 
-    <span className='flex mx-auto items-center justify-center'><span className='text-[#E63946] flex'><span className='text-[#E63946]'>month</span>……{' '}
+    <span className="text-white font-semibold">30%-45% revenue every single </span> 
+    <span className='flex mx-auto items-center justify-center'><span className='text-white flex'><span className='text-white'>month</span>…{' '}
     </span >
      Now imagine what those same 30%-45% would look like when applied to YOUR{' '} <span className="text-white ml-1 "> revenue numbers!</span> 
      </span>
@@ -669,7 +669,7 @@ export default function BadRetentionHomepage() {
            
 
             <h2 className="text-4xl md:text-5xl font-bold font-montserrat mb-4">
-              Other Agencies VS <span className="text-[#E63946]">BADRetention™</span>
+              Other Agencies VS <span className="text-red-600">BADRetention™</span>
             </h2>
             <p className="text-white text-lg mb-8">
               If we don’t deliver on our promise within 60 days or less, we’ll work for free until we do!
@@ -704,7 +704,7 @@ export default function BadRetentionHomepage() {
             {/* BADRETENTION */}
             <div className="bg-gradient-to-br from-black  to-red-600/50 border-1 border-red-500 rounded-2xl p-8 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent"></div>
-              <h3 className="text-2xl font-bold mb-6 text-center font-montserrat text-[#E63946] relative z-10">BAD RETENTION</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center font-montserrat text-red-600 relative z-10">BAD RETENTION</h3>
               <div className="space-y-4 relative z-10">
                 {[
                   "Obssess over Real Revenue. REAL Profits",
@@ -743,7 +743,7 @@ export default function BadRetentionHomepage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center space-x-2 bg-red-500/10 px-4 py-2 rounded-full border border-red-500/20 mb-8">
-              <span className="text-red-400 text-sm font-medium">FAQs</span>
+              <span className="text-red-600 text-sm font-medium">FAQs</span>
             </div>
             <h2 className="text-4xl font-montserrat md:text-5xl font-bold mb-4">Got questions?</h2>
             <p className="text-gray-400 text-lg">We've got the answers.</p>
