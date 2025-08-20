@@ -56,7 +56,7 @@ const App = () => {
       {/* Foreground content stays centered */}
       <div className="relative z-10 flex flex-col items-center justify-center w-full h-full px-4">
         {/* Heading section with responsive text sizes */}
-        <div className="text-center -mt-40 z-30 sm:mt-2">
+        <div className="text-center -mt-38 z-30 sm:mt-2">
           <p className="  text-sm md:text-lg text-white font-semibold">PROOF</p>
           <h1 className="text-white text-xl sm:text-4xl md:text-5xl font-bold leading-tight">
             These Brands Stopped Discounting
